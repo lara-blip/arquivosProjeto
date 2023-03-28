@@ -1,0 +1,22 @@
+﻿<Window x:Class="NovoProjetoWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NovoProjetoWpf"
+        mc:Ignorable="d"
+        Title="MENU
+        " Height="354" Width="501">
+    <Grid RenderTransformOrigin="0.49,0.542" Width="NaN" Margin="0,0,0,-6">
+        <Grid.Background>
+            <ImageBrush TileMode="FlipX" ImageSource="/papel.png" Stretch="UniformToFill" Opacity="1"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="347*"/>
+            <ColumnDefinition Width="94*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btListar" Content="Lista De Contato" HorizontalAlignment="Left" Margin="181,110,0,0" VerticalAlignment="Top" Width="166" FontSize="20" FontFamily="Arial" BorderBrush="#00000000" Foreground="White" Background="#00000000" Click="btListar_Click"/>
+        <Button Content="Cadastrar Contato" HorizontalAlignment="Left" Margin="180,69,0,0" VerticalAlignment="Top" Background="#00000000" BorderBrush="#00000000" Foreground="White" FontSize="20" FontFamily="Arial" Click="Button_Click"/>
+
+    </Grid>
+</Window>
